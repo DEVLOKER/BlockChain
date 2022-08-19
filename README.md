@@ -1,0 +1,69 @@
+# BlockChain
+- block chain system using python, created by [devloker](https://luxury-sfogliatella-401600.netlify.app/)
+
+## Used Modules
+`pip install pycryptodome`
+
+## How to run?
+In the project directory, you can run:
+`python main.py`
+
+## Results
+```
+##################### Blockchain System #####################
+
+____________________________ Block N°  0
+
+{
+    "hash": "f0ef18890efb115848ef0482ed733b5c68130a07244b3fabcb08d9d94b32fcbb",
+    "id": 0,
+    "nonce": 0,
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "time": "08/19/2022, 04:34:45",
+    "transactions": []
+}
+
+____________________________ Block N°  1
+
+{
+    "hash": "116f1c45638456d8928f3ec1859e683697783997f8bffd60aba7f4c30f2b9bab",
+    "id": 1,
+    "nonce": 0,
+    "previous_hash": "f0ef18890efb115848ef0482ed733b5c68130a07244b3fabcb08d9d94b32fcbb",
+    "time": "08/19/2022, 04:34:45",
+    "transactions": [
+        {
+            "recipient": "30819f300d06092a864886f70d010101050003818d0030818902818100c3ba31323b4dbb5a942aa52787d4648c857afeaf9a3bcebe9289c9477c556b26bf574698f5c1ab6f6e8ccd68cc26058848d0e51b8896432b93a1f014fecbe1a3c00a069c7f749640767b88c39970076f4adb786aed82c519b1e93cfc49a5e0bfb2933d2ba19321be22ee8fe9f5b64ccaa0ab639f6fdd4c0ca73cfb4b41fb0f050203010001",
+            "sender": "30819f300d06092a864886f70d010101050003818d0030818902818100cadec237e4e94f387b3652768b3484aca3ad0aa650220d0f26091e43c2b38a833ca2809193d13d89815d89d5c280f30987666e19bfd967cef580d8918d0fe6bf78f4c9b14a14fc7844b102a2d06bfe57624da8dc345b4859f99bac59acce0ddd8817e80d0dbb994515533a89b9a2c2d305c104292ff3dba02a2a9bb042e6a6950203010001",
+            "signature": "130b8ed92fad737f9d8ce73306257dc52074074f2dec14a51e8a0fb849aa01bfce46f505e294e668af40c9dd253fe3ca02151668797504b223d1d33cdc542026cc910ddcf5a4687509dbf482becd7948b9695286ce905dcedb7984f8a5c95eb1b080cad9442056cf3171c50b0b1a8bc47decd0f587ab76902c76f3824c9da352",
+            "time": "08/19/2022, 11:34:45",
+            "value": 5.0
+        },
+        {
+            "recipient": "30819f300d06092a864886f70d010101050003818d0030818902818100cadec237e4e94f387b3652768b3484aca3ad0aa650220d0f26091e43c2b38a833ca2809193d13d89815d89d5c280f30987666e19bfd967cef580d8918d0fe6bf78f4c9b14a14fc7844b102a2d06bfe57624da8dc345b4859f99bac59acce0ddd8817e80d0dbb994515533a89b9a2c2d305c104292ff3dba02a2a9bb042e6a6950203010001",
+            "sender": "30819f300d06092a864886f70d010101050003818d0030818902818100c3ba31323b4dbb5a942aa52787d4648c857afeaf9a3bcebe9289c9477c556b26bf574698f5c1ab6f6e8ccd68cc26058848d0e51b8896432b93a1f014fecbe1a3c00a069c7f749640767b88c39970076f4adb786aed82c519b1e93cfc49a5e0bfb2933d2ba19321be22ee8fe9f5b64ccaa0ab639f6fdd4c0ca73cfb4b41fb0f050203010001",
+            "signature": "103e8f3ada56458aa03fb09b5f1ed9348eb9ee1cb0e9aae39566f8875bf25f3b6066923c9d5ef2bfa368b9ebef959320cb5410627fbea2685ea9f51353421d536742de6b5fb8c9eb25e08e30e7a812d077f07b94a1206a1b2e76e2120e46aba84e96eac98af01943c70b19a69e5a90e00804fdd51833d18923be5ea7290fc5ce",
+            "time": "08/19/2022, 11:34:45",
+            "value": 2.0
+        }
+    ]
+}
+chain is valid? :  True
+execution time :  0.408074  ms
+Press any key to continue . . .
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
