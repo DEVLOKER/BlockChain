@@ -1,5 +1,5 @@
 # BlockChain
-- block chain system using python, created by [devloker](https://luxury-sfogliatella-401600.netlify.app/)
+- block chain system using python.
 
 ## Used Modules
 `pip install pycryptodome`
